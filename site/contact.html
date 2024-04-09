@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зворотній звязок</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Зворотній звязок</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="about.html">Про мене</a></li>
+            <li><a href="contact.html">Зворотній звязок</a></li>
+        </ul>
+    </nav>
+    <form id="contactForm" action="submit.php" method="POST">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Електронна адреса:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Що ви хочете?:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+<script src="script.js" defer></script>
+</body>
+</html>
